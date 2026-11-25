@@ -1,0 +1,11 @@
+from math import comb
+print("1. Fórmula: C(n+r-1,r)")
+print("2. b) El orden no importa y se pueden repetir elementos.")
+print("3. Galletas: C(7,3) =",comb(7,3),"(c)")
+print("4. Cuatro dados: C(9,4) =",comb(9,4),"(c)")
+print("5. c) Distribuir 8 caramelos entre 3 niños sin restricción.")
+print("6. Simple: no repite; con repetición: permite repetir tipos.")
+print("7. C(n+r-1,r) contempla selecciones repetidas; C(n,r) no.")
+print("8. Pizzas: C(11,5) =",comb(11,5))
+print("9. Ejemplo: seleccionar bolas de helado permitiendo repetir sabor.")
+print("10. Sin repetición se usa C(n,r).")
